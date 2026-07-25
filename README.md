@@ -22,7 +22,7 @@ cd azure-ridge
 ## Usage
 
 ```bash
-./azure-ridge.py --help
+go run main.go --help
 ```
 
 ## Development
