@@ -1,16 +1,16 @@
 # Azure Ridge
 
-**CLI** · **Go** · **v0.1.0**
+**Go** · **v0.1.0**
 
-_Real-time system resource monitor for the terminal_
+_Prime number finder using the Sieve of Eratosthenes_
 
 ---
 
 ## Features
 
-- **Lightweight** — Minimal dependencies, no bloat
-- **Fast** — Optimized for speed and low resource usage
-- **CLI-first** — Designed for the terminal, works with pipes
+- Sieve of Eratosthenes up to any limit
+- Formatted output, 10 primes per line
+- Count summary
 
 ## Installation
 
@@ -22,12 +22,8 @@ cd azure-ridge
 ## Usage
 
 ```bash
-go run main.go --help
+go run main.go 1000
 ```
-
-## Development
-
-Contributions are welcome! Feel free to open issues or submit PRs.
 
 ## License
 
